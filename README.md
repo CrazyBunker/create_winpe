@@ -33,12 +33,12 @@ This file contains the working directory
 Depending on the architecture chosen, the files are launched in the following order
 To automatically create a structure and wim-image, run the setup.bat script
 
-generate.bat
-unpack.bat
-extractBootPXE.bat
-import_start.bat
-pack.bat
-export.bat
+1. generate.bat
+2. unpack.bat
+3. extractBootPXE.bat
+4. import_start.bat
+5. pack.bat
+6. export.bat
 
 # 9 createBCD
 Run createBCD.bat from a command prompt with elevated privileges, the BCD file will appear in the PXE / Boot directory
